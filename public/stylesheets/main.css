@@ -1,0 +1,95 @@
+h1 {
+  position: absolute;
+  margin: 3em 0 0 2em;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#github-click-container {
+  position: fixed;
+  right: -2em;
+  top: -4.6em;
+  transform: rotate(45deg)translateX(29%);
+  width: 150px;
+  height: 100px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#github-logo {
+  position: fixed;
+  right: 0;
+  cursor: default;
+}
+
+.squiggly {
+  position: absolute;
+  margin: 12em 0 0 14.3em;
+}
+
+.description {
+  margin: 3em 0 0 30em;
+  display: inline-block;
+  border: 2px solid #DCDCDC;
+  border-radius: 2em;
+/*  background-color: #DCDCDC;*/
+  padding: 1em 1em;
+  width: 70em;
+  height: 19em;
+}
+
+.note {
+  color: red;
+}
+
+#button-container {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#editor {
+  position: absolute; /* Added */
+  top: 30em;
+  right: 50%;
+  bottom: 0;
+  left: 0;
+}
+
+#error-container {
+  position: absolute;
+  display: inline-block;
+  bottom: .8em;
+  top: 25.7em;
+  right: 0;
+  width: 50%;
+  border-radius: .2em;
+  background-color: grey;
+}
+
+#error-notification {
+  display: block;
+  margin: 1.5em 0 1em 1.5em;
+  font-size: 1.8em;
+  color: white;
+}
+
+#columnOne {
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+#columnTwo, #columnThree {
+   margin-top: 10em;
+   font-size: 10em;
+}
+
+#error-container > div {
+  display: inline-block;
+  margin: 0 2.5em;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: blue;
+}
